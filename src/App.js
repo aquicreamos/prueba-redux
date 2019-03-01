@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CambiarCiudad from './containers/CambiarCiudad'
 import CiudadActual from './containers/CiudadActual'
+import Prueba from './containers/Prueba'
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
       <div>
         <CambiarCiudad/>
         <CiudadActual/>
+        <Prueba/>
       </div>
     );
   }
